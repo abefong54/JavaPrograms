@@ -19,7 +19,7 @@ public class ReverseSong{
 		File songToFlip = new File(song);
 
 		ArrayList<String> song = saveSongInArrayList(songToFlip);//save the song into an arraylist
-		String sentences = createSentences(song);//flip the order of the words 
+		String sentences = createSentences(song);//create one long string as several stanzas of a song
 		String finalSong = reverseSentence(sentences); //spell each words backwards
 		
 		System.out.println("Here's your song: \n");
